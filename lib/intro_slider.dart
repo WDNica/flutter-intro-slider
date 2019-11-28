@@ -724,6 +724,7 @@ class IntroSliderState extends State<IntroSlider>
 
     return Scaffold(
       body: DefaultTabController(
+        initialIndex: 0,
         length: slides.length,
         child: Stack(
           children: <Widget>[
